@@ -36,6 +36,7 @@ public class UserController {
         return Result.okResult(login);
     }
 
+    @ApiOperation("注册用户")
     @PostMapping
     public Result addUser(@RequestBody User user) {
         userService.addUser(user);

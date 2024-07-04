@@ -15,11 +15,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 
-/**
- * @author 肖恩
- * @create 2023/8/5 19:21
- * @description: 处理用户相关请求
- */
 @RestController
 @RequestMapping("/front-chat")
 public class FrontChatController {
