@@ -1,0 +1,20 @@
+server:
+  port: 8971
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/testLogin?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#配置mysql-plus
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto #配置主键自增
+      logic-delete-value: 0 #逻辑删除值
+      logic-not-delete-value: 1 #逻辑未删除值
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #配置sql输出，方便我们观察sql
