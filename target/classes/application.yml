@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    username: root
-    password: 1234
-    url: jdbc:mysql://localhost:3306/testLogin?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: zwk_test
+    password: root123456
+    url: jdbc:mysql://106.53.179.195:3306/testLogin?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #配置mysql-plus
