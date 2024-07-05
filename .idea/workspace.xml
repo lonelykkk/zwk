@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa62f74e-309e-44b9-bb05-6bbc54e48414" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/common/exception/SystemException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/common/utils/AppHttpCodeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/common/utils/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/domain/dto/ChatAskDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/domain/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/domain/vo/ChatInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/domain/vo/UserInfoVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/service/ChatService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/service/impl/ChatServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/service/impl/UserServiceImpl.class" beforeDir="false" />
-    </list>
+    <list default="true" id="fa62f74e-309e-44b9-bb05-6bbc54e48414" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,10 +36,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2h7QeaWMV9kHmNmyxwcQNbdY3j5" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -72,6 +52,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Main.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
