@@ -142,7 +142,7 @@
       <workItem from="1720107690477" duration="1217000" />
       <workItem from="1720140951308" duration="17437000" />
       <workItem from="1720179817504" duration="1244000" />
-      <workItem from="1720185830458" duration="3497000" />
+      <workItem from="1720185830458" duration="5371000" />
     </task>
     <task id="LOCAL-00001" summary="更新swagger接口文档">
       <created>1720141994841</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720164334557</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新数据库配置">
+      <created>1720195444019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720195444019</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +231,8 @@
     <MESSAGE value="修改登录和注册接口，新增上传文件接口" />
     <MESSAGE value="修复文件上传文件接口" />
     <MESSAGE value="新增用户更新接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增用户更新接口" />
+    <MESSAGE value="更新数据库配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新数据库配置" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
