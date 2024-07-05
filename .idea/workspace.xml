@@ -5,25 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa62f74e-309e-44b9-bb05-6bbc54e48414" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkk/common/config/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/common/exception/SystemException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/common/utils/AppHttpCodeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/common/utils/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kkk/common/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kkk/common/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kkk/common/utils/AppHttpCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kkk/common/utils/AppHttpCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/domain/dto/ChatAskDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/domain/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/domain/vo/ChatInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/domain/vo/UserInfoVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/service/ChatService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/service/impl/ChatServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +44,12 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 8
-}</component>
   <component name="ProjectId" id="2h7QeaWMV9kHmNmyxwcQNbdY3j5" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -70,33 +62,32 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Main.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/面试大厂/java测试/TestLogin/src/main/resources/mapper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "85518dd152c0365d2c0de763a2f328fa",
+    "spring.configuration.checksum": "3c19cf3a544a76e4160704d8f46fa655",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
-    ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Main (1)">
+    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zwk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kkk.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TestLogin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kkk.Main" />
       <extension name="coverage">
@@ -111,17 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="Spring Boot.Main (1)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -137,29 +120,22 @@
       <workItem from="1717423710613" duration="1194000" />
       <workItem from="1720086018328" duration="1342000" />
       <workItem from="1720102478847" duration="1220000" />
-      <workItem from="1720105391454" duration="297000" />
-      <workItem from="1720107690477" duration="1217000" />
-      <workItem from="1720140951308" duration="1592000" />
+      <workItem from="1720195483474" duration="301000" />
     </task>
-    <task id="LOCAL-00001" summary="更新swagger接口文档">
-      <created>1720141994841</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1720141994841</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新swagger接口文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新swagger接口文档" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
