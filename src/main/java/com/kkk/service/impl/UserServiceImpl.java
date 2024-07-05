@@ -2,12 +2,16 @@ package com.kkk.service.impl;
 
 import com.kkk.common.exception.SystemException;
 import com.kkk.common.utils.AppHttpCodeEnum;
+import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
 import com.kkk.mapper.UserMapper;
 import com.kkk.service.UserService;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
+
+import java.util.Date;
 
 /**
  * @author lonelykkk
@@ -22,8 +26,13 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
-    public void addUser(User user) {
-        userMapper.addUser(user);
+    public void addUser(UserDto userDto) {
+        User user = new User();
+        BeanUtils.copyProperties(userDto, user);
+        //user.setEmail("123@qq.com");
+        user.setCreateTime(new Date());
+        user.setLoginTime(new Date());
+        userMapper.insert(user);
     }
 
     @Override
@@ -32,6 +41,7 @@ public class UserServiceImpl implements UserService {
         if (ObjectUtils.isEmpty(userInfo)) {
             throw new SystemException(AppHttpCodeEnum.LOGIN_ERROR);
         }
+        userInfo.setLoginTime(new Date());
         return userInfo;
     }
 }

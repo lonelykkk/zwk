@@ -1,5 +1,6 @@
 package com.kkk.service;
 
+import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
 
 /**
@@ -9,7 +10,7 @@ import com.kkk.domain.entity.User;
  * @Version V1.0
  */
 public interface UserService {
-    void addUser(User user);
+    void addUser(UserDto userDto);
 
     User login(User user);
 }

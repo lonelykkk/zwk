@@ -3,6 +3,7 @@ package com.kkk.controller;
 import com.kkk.common.exception.SystemException;
 import com.kkk.common.utils.AppHttpCodeEnum;
 import com.kkk.common.utils.Result;
+import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
 import com.kkk.service.UserService;
 import io.swagger.annotations.Api;
@@ -32,14 +33,14 @@ public class UserController {
             //提示必须要输入用户名
             throw new SystemException(AppHttpCodeEnum.REQUIRE_USERNAME);
         }
-        final User login = userService.login(user);
+        User login = userService.login(user);
         return Result.okResult(login);
     }
 
     @ApiOperation("注册用户")
     @PostMapping
-    public Result addUser(@RequestBody User user) {
-        userService.addUser(user);
+    public Result addUser(@RequestBody UserDto userDto) {
+        userService.addUser(userDto);
         return Result.okResult();
     }
 

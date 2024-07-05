@@ -24,9 +24,23 @@ h-visions:
   log:
     enable: false
   #服务名称,可以使用中文，日志服务会将这个字段传递
-  service-name: 仓储服务
+  service-name: ZWK
   # 此处配置为audit信息的创建方式。dto 为当请求控制器的时候如果入参为SysDTO可以自动赋值。jpa为使用jpa的audit方式进行实现。
   #可以使用swagger的接口，使用对应的测试方法，生成api文档，支持markdown和ascii
   swagger:
     # 如果为false或者没有此属性。swagger界面将不会加载
     enable: true
+
+logging:
+  #打印日志文件
+  file:
+    path: D:\ZWK\ZWK
+    name: ZWK.log
+  level:
+    root: INFO
+
+alioss:
+  endpoint: oss-cn-shanghai.aliyuncs.com
+  access-key-id: LTAI5tKXM5sNWAMd5H2j5LGz
+  access-key-secret: TDJK2SJ7UGyepbruIxEXWZ2LZsq8T7
+  bucket-name: lonelykky

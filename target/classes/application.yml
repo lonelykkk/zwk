@@ -30,3 +30,17 @@ h-visions:
   swagger:
     # 如果为false或者没有此属性。swagger界面将不会加载
     enable: true
+
+logging:
+  #打印日志文件
+  file:
+    path: D:\ZWK\ZWK
+    name: ZWK.log
+  level:
+    root: INFO
+    
+alioss:
+  endpoint: oss-cn-shanghai.aliyuncs.com
+  access-key-id: LTAI5tKXM5sNWAMd5H2j5LGz
+  access-key-secret: TDJK2SJ7UGyepbruIxEXWZ2LZsq8T7
+  bucket-name: lonelykky

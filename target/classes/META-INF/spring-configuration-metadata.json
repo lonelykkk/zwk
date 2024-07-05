@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "alioss",
+      "type": "com.kkk.properties.AliOssProperties",
+      "sourceType": "com.kkk.properties.AliOssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "alioss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.kkk.properties.AliOssProperties"
+    },
+    {
+      "name": "alioss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.kkk.properties.AliOssProperties"
+    },
+    {
+      "name": "alioss.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.kkk.properties.AliOssProperties"
+    },
+    {
+      "name": "alioss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.kkk.properties.AliOssProperties"
+    }
+  ],
+  "hints": []
+}

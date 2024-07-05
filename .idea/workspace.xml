@@ -50,6 +50,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -83,7 +84,7 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "85518dd152c0365d2c0de763a2f328fa",
     "vue.rearranger.settings.migration": "true"
   },
@@ -139,7 +140,7 @@
       <workItem from="1720102478847" duration="1220000" />
       <workItem from="1720105391454" duration="297000" />
       <workItem from="1720107690477" duration="1217000" />
-      <workItem from="1720140951308" duration="1592000" />
+      <workItem from="1720140951308" duration="7090000" />
     </task>
     <task id="LOCAL-00001" summary="更新swagger接口文档">
       <created>1720141994841</created>
@@ -148,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720141994841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新ChatGpt对话接口">
+      <created>1720142645889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720142645889</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改登录和注册接口，新增上传文件接口">
+      <created>1720148643881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720148643882</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +171,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新swagger接口文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新swagger接口文档" />
+    <MESSAGE value="更新ChatGpt对话接口" />
+    <MESSAGE value="修改登录和注册接口" />
+    <MESSAGE value="修改登录和注册接口，新增上传文件接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改登录和注册接口，新增上传文件接口" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
