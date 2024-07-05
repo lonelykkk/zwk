@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa62f74e-309e-44b9-bb05-6bbc54e48414" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkk/common/config/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_2.xml" afterDir="false" />
+    <list default="true" id="fa62f74e-309e-44b9-bb05-6bbc54e48414" name="更改" comment="更改3次">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]/FrontChatController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]/FrontChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56___.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kkk/common/config/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kkk/common/config/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kkk/common/config/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kkk/service/FrontChatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kkk/service/impl/FrontCharServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kkk/service/impl/FrontCharServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kkk/common/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kkk/common/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kkk/common/utils/AppHttpCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kkk/common/utils/AppHttpCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kkk/common/config/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kkk/common/config/C.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkk/controller/FrontChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkk/common/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkk/common/config/SwaggerConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,12 +124,45 @@
       <workItem from="1717423710613" duration="1194000" />
       <workItem from="1720086018328" duration="1342000" />
       <workItem from="1720102478847" duration="1220000" />
-      <workItem from="1720195483474" duration="301000" />
+      <workItem from="1720195483474" duration="2266000" />
     </task>
+    <task id="LOCAL-00001" summary="更改1次">
+      <created>1720195845015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720195845015</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更改2次">
+      <created>1720195952103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720195952103</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更改3次">
+      <created>1720199057775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720199057775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -137,5 +174,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改1次" />
+    <MESSAGE value="更改2次" />
+    <MESSAGE value="更改3次" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改3次" />
   </component>
 </project>
