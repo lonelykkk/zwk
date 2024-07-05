@@ -30,6 +30,10 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private FileUploadService fileUploadService;
 
+    /**
+     * 新增用户
+     * @param userDto
+     */
     public void addUser(UserDto userDto) {
         User user = new User();
         BeanUtils.copyProperties(userDto, user);
