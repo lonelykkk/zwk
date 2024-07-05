@@ -5,6 +5,7 @@ import com.kkk.common.utils.AppHttpCodeEnum;
 import com.kkk.common.utils.Result;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
+import com.kkk.domain.vo.UserAvatarVo;
 import com.kkk.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
  * @date 2024/5/29 16:04
  * @Version V1.0
  */
-@Api(tags = "用户登录相关接口")
+@Api(tags = "用户相关接口")
 @RestController
 @RequestMapping("/user")
 public class UserController {
@@ -41,6 +42,13 @@ public class UserController {
     @PostMapping
     public Result addUser(@RequestBody UserDto userDto) {
         userService.addUser(userDto);
+        return Result.okResult();
+    }
+
+    @ApiOperation("更新用户信息")
+    @PostMapping("/update")
+    public Result uploadAvatar(User user) {
+        userService.uploadAvatar(user);
         return Result.okResult();
     }
 

@@ -13,4 +13,6 @@ public interface UserService {
     void addUser(UserDto userDto);
 
     User login(User user);
+
+    void uploadAvatar(User user);
 }

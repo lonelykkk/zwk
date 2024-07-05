@@ -5,6 +5,7 @@ import com.kkk.common.utils.AppHttpCodeEnum;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
 import com.kkk.mapper.UserMapper;
+import com.kkk.service.FileUploadService;
 import com.kkk.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,9 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
+    @Autowired
+    private FileUploadService fileUploadService;
+
     public void addUser(UserDto userDto) {
         User user = new User();
         BeanUtils.copyProperties(userDto, user);
@@ -43,5 +47,15 @@ public class UserServiceImpl implements UserService {
         }
         userInfo.setLoginTime(new Date());
         return userInfo;
+    }
+
+    /**
+     * 更新用户信息
+     * @param user
+     * @return
+     */
+    @Override
+    public void uploadAvatar(User user) {
+        userMapper.updateById(user);
     }
 }

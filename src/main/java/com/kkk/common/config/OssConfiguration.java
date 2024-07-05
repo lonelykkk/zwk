@@ -1,6 +1,6 @@
-package com.kkk.config;
+package com.kkk.common.config;
 import com.kkk.properties.AliOssProperties;
-import com.kkk.utils.AliOssUtil;
+import com.kkk.common.utils.AliOssUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

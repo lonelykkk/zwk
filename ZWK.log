@@ -1818,3 +1818,50 @@ java.lang.NullPointerException: null
 2024-07-05 11:17:11.161  INFO 14800 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2024-07-05 11:17:11.162  INFO 14800 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2024-07-05 11:17:11.162  INFO 14800 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-07-05 11:17:16.336  INFO 10332 --- [main] com.kkk.Main                             : Starting Main using Java 1.8.0_351 on LAPTOP-O79UOV3L with PID 10332 (E:\面试大厂\java测试\TestLogin\target\classes started by 喻凯 in E:\面试大厂\java测试\TestLogin)
+2024-07-05 11:17:16.337  INFO 10332 --- [main] com.kkk.Main                             : No active profile set, falling back to default profiles: default
+2024-07-05 11:17:16.970  INFO 10332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8971 (http)
+2024-07-05 11:17:16.975  INFO 10332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-05 11:17:16.975  INFO 10332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2024-07-05 11:17:17.027  INFO 10332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-05 11:17:17.027  INFO 10332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 668 ms
+2024-07-05 11:17:17.073  INFO 10332 --- [main] com.kkk.config.OssConfiguration          : 开始创建阿里云文件oss对象
+2024-07-05 11:17:17.115  INFO 10332 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-07-05 11:17:17.157  INFO 10332 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-07-05 11:17:18.039  INFO 10332 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-07-05 11:17:18.080  INFO 10332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-05 11:17:18.183  INFO 10332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8971 (http) with context path ''
+2024-07-05 11:17:18.184  INFO 10332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-07-05 11:17:18.192  INFO 10332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-07-05 11:17:18.206  INFO 10332 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-07-05 11:17:18.276  INFO 10332 --- [main] com.kkk.Main                             : Started Main in 2.149 seconds (JVM running for 2.959)
+2024-07-05 11:17:30.052  INFO 10332 --- [http-nio-8971-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-05 11:17:30.052  INFO 10332 --- [http-nio-8971-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-05 11:17:30.053  INFO 10332 --- [http-nio-8971-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-05 11:17:40.346  INFO 10332 --- [http-nio-8971-exec-8] com.kkk.controller.FileUploadController  : file：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7aa2283a
+2024-07-05 11:17:41.458  INFO 10332 --- [http-nio-8971-exec-8] com.kkk.utils.AliOssUtil                 : 文件上传到:https://lonelykky.oss-cn-shanghai.aliyuncs.com/97639c4e-d18e-48ba-9031-24048da4d824.jpg
+2024-07-05 11:25:20.675  INFO 10332 --- [http-nio-8971-exec-6] com.kkk.controller.FileUploadController  : file：org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@436cdb8b
+2024-07-05 11:25:20.841  INFO 10332 --- [http-nio-8971-exec-6] com.kkk.utils.AliOssUtil                 : 文件上传到:https://lonelykky.oss-cn-shanghai.aliyuncs.com/65272cf4-380f-4918-8d12-c32f10eac77d.zip
+2024-07-05 14:09:26.621  INFO 10332 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-05 14:09:26.623  INFO 10332 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-07-05 14:09:26.628  INFO 10332 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-07-05 14:09:37.267  INFO 43796 --- [main] com.kkk.Main                             : Starting Main using Java 1.8.0_351 on LAPTOP-O79UOV3L with PID 43796 (E:\面试大厂\java测试\TestLogin\target\classes started by 喻凯 in E:\面试大厂\java测试\TestLogin)
+2024-07-05 14:09:37.269  INFO 43796 --- [main] com.kkk.Main                             : No active profile set, falling back to default profiles: default
+2024-07-05 14:09:38.023  INFO 43796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8971 (http)
+2024-07-05 14:09:38.028  INFO 43796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-05 14:09:38.028  INFO 43796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2024-07-05 14:09:38.079  INFO 43796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-05 14:09:38.079  INFO 43796 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 786 ms
+2024-07-05 14:09:38.123  INFO 43796 --- [main] com.kkk.common.config.OssConfiguration   : 开始创建阿里云文件oss对象
+2024-07-05 14:09:38.163  INFO 43796 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-07-05 14:09:38.212  INFO 43796 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-07-05 14:09:39.093  INFO 43796 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-07-05 14:09:39.134  INFO 43796 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-05 14:09:39.254  INFO 43796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8971 (http) with context path ''
+2024-07-05 14:09:39.254  INFO 43796 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-07-05 14:09:39.267  INFO 43796 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-07-05 14:09:39.284  INFO 43796 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-07-05 14:09:39.370  INFO 43796 --- [main] com.kkk.Main                             : Started Main in 2.336 seconds (JVM running for 3.169)
+2024-07-05 14:57:52.489  INFO 43796 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-05 14:57:52.493  INFO 43796 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-07-05 14:57:52.494  INFO 43796 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
