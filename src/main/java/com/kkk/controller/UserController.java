@@ -5,7 +5,6 @@ import com.kkk.common.utils.AppHttpCodeEnum;
 import com.kkk.common.utils.Result;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
-import com.kkk.domain.vo.UserAvatarVo;
 import com.kkk.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
