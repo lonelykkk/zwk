@@ -30,6 +30,11 @@ public class FileUploadController {
     @Autowired
     private FileUploadService uploadService;
 
+    /**
+     * 文件上传
+     * @param img
+     * @return
+     */
     @ApiOperation("文件上传")
     @PostMapping("/upload")
     public Result upload(MultipartFile img) {
