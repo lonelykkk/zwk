@@ -34,4 +34,5 @@ public enum AppHttpCodeEnum {
     public String getMsg() {
         return msg;
     }
+
 }

@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
  * @date 2024/5/29 16:04
  * @Version V1.0
  */
-@Api("用户登录相关接口")
+@Api(tags = "用户登录相关接口")
 @RestController
 @RequestMapping("/user")
 public class UserController {
