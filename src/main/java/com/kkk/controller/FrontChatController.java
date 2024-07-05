@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.kkk.common.utils.Result;
 import com.kkk.domain.dto.ChatAskDTO;
 import com.kkk.domain.vo.ChatInfo;
+import io.swagger.annotations.Api;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 
 @RestController
+@Api(tags = "chatGpt相关接口")
 @RequestMapping("/front-chat")
 public class FrontChatController {
 

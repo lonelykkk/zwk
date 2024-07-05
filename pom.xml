@@ -109,12 +109,12 @@
             <version>2.9.2</version>
             <!-- Swagger API 文档生成工具 -->
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>io.github.swagger2markup</groupId>
             <artifactId>swagger2markup</artifactId>
             <version>1.3.3</version>
-            <!-- 将Swagger文档转换为其他格式的工具 -->
-        </dependency>
+            &lt;!&ndash; 将Swagger文档转换为其他格式的工具 &ndash;&gt;
+        </dependency>-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
