@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]" date="1720195034441" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2024/7/5 23:56 [更改]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/kkk/controller/FrontChatController$1.class" />
+    <option name="AFTER_PATH" value="target/classes/com/kkk/controller/FrontChatController$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]/FrontChatController$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/kkk/controller/UserController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/kkk/controller/UserController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]/UserController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/kkk/controller/FrontChatController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/kkk/controller/FrontChatController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_7_5_23_56_[更改]/FrontChatController.class" />
+  </binary>
+</changelist>
