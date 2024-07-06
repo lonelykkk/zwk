@@ -38,6 +38,7 @@ public class FileUploadController {
     @ApiOperation("文件上传")
     @PostMapping("/upload")
     public Result upload(MultipartFile img) {
+
         log.info("文件file：{}", img);
         final String filePath = uploadService.upload(img);
         return Result.okResult(filePath);
