@@ -1,6 +1,5 @@
 package com.kkk.common.exception;
 
-
-public class D {
+public class E {
 
 }
