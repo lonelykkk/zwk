@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa62f74e-309e-44b9-bb05-6bbc54e48414" name="更改" comment="更改5次">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkk/common/exception/H.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2024_7_4_23_12_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fa62f74e-309e-44b9-bb05-6bbc54e48414" name="更改" comment="测试连接" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +111,7 @@
       <workItem from="1720279523102" duration="2178000" />
       <workItem from="1720281890010" duration="16000" />
       <workItem from="1720282022082" duration="3045000" />
-      <workItem from="1720285378362" duration="1673000" />
+      <workItem from="1720285378362" duration="1916000" />
     </task>
     <task id="LOCAL-00001" summary="更改1次">
       <created>1720195845015</created>
@@ -152,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720282728874</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试连接">
+      <created>1720288864697</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720288864697</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +188,8 @@
     <MESSAGE value="更改2次" />
     <MESSAGE value="更改3次" />
     <MESSAGE value="更改5次" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改5次" />
+    <MESSAGE value="测试连接" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试连接" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
