@@ -42,6 +42,6 @@ logging:
 
 alioss:
   endpoint: oss-cn-shanghai.aliyuncs.com
-  access-key-id: test
-  access-key-secret: test
-  bucket-name: test
+  access-key-id: LTAI5tQf2Zwk976EbuR15Mnq
+  access-key-secret: 6BtBhcnGxDv364zPQ3EOgpppzBvYK7
+  bucket-name: lonelykky
