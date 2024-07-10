@@ -7566,3 +7566,27 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 2024-07-10 16:12:20.862  WARN 37900 --- [http-nio-8971-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /csrf
 2024-07-10 16:12:47.346  INFO 37900 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2024-07-10 16:12:47.347  INFO 37900 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-07-10 16:12:52.703  INFO 57224 --- [main] com.kkk.Main                             : Starting Main using Java 1.8.0_351 on LAPTOP-O79UOV3L with PID 57224 (E:\面试大厂\java测试\TestLogin\target\classes started by 喻凯 in E:\面试大厂\java测试\TestLogin)
+2024-07-10 16:12:52.705  INFO 57224 --- [main] com.kkk.Main                             : No active profile set, falling back to default profiles: default
+2024-07-10 16:12:53.193  INFO 57224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-07-10 16:12:53.195  INFO 57224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-10 16:12:53.211  INFO 57224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-07-10 16:12:53.483  INFO 57224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8971 (http)
+2024-07-10 16:12:53.489  INFO 57224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-10 16:12:53.489  INFO 57224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2024-07-10 16:12:53.559  INFO 57224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-10 16:12:53.559  INFO 57224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 834 ms
+2024-07-10 16:12:53.732  INFO 57224 --- [main] com.kkk.common.config.OssConfiguration   : 开始创建阿里云文件oss对象
+2024-07-10 16:12:53.804  INFO 57224 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-07-10 16:12:53.848  INFO 57224 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-07-10 16:12:54.770  INFO 57224 --- [main] c.kkk.common.config.WebMvcConfiguration  : 开始注册自定义拦截器...
+2024-07-10 16:12:54.821  INFO 57224 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-07-10 16:12:55.085  INFO 57224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8971 (http) with context path ''
+2024-07-10 16:12:55.086  INFO 57224 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-07-10 16:12:55.095  INFO 57224 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-07-10 16:12:55.116  INFO 57224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-07-10 16:12:55.223  INFO 57224 --- [main] com.kkk.Main                             : Started Main in 2.742 seconds (JVM running for 3.709)
+2024-07-10 16:13:03.495  INFO 57224 --- [http-nio-8971-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 16:13:03.495  INFO 57224 --- [http-nio-8971-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-10 16:13:03.496  INFO 57224 --- [http-nio-8971-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-10 16:13:03.527  WARN 57224 --- [http-nio-8971-exec-1] o.s.web.servlet.PageNotFound             : No mapping for POST /upload

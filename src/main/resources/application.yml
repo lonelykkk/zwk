@@ -38,13 +38,8 @@ logging:
     path: D:\ZWK\ZWK
     name: ZWK.log
   level:
-    root: INFO
+    root: debug
 
-alioss:
-  endpoint: oss-cn-shanghai.aliyuncs.com
-  access-key-id: LTAI5tQf2Zwk976EbuR15Mnq
-  access-key-secret: 6BtBhcnGxDv364zPQ3EOgpppzBvYK7
-  bucket-name: lonelykky
 
 zwk:
   jwt:

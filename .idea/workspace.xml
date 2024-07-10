@@ -154,7 +154,7 @@
       <workItem from="1720423269595" duration="2560000" />
       <workItem from="1720447093821" duration="1542000" />
       <workItem from="1720489764237" duration="13298000" />
-      <workItem from="1720575378103" duration="18078000" />
+      <workItem from="1720575378103" duration="18415000" />
     </task>
     <task id="LOCAL-00001" summary="更改1次">
       <created>1720195845015</created>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720597775345</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新登录拦截校验">
+      <created>1720599861428</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720599861428</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
