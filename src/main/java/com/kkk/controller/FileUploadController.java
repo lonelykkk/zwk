@@ -22,7 +22,7 @@ import java.util.UUID;
  * @Version V1.0
  */
 @Api(tags = "文件上传接口")
-@RestController("/upload")
+@RestController
 @Log4j2
 public class FileUploadController {
 
@@ -40,7 +40,7 @@ public class FileUploadController {
     public Result upload(MultipartFile img) {
 
         log.info("文件file：{}", img);
-        final String filePath = uploadService.upload(img);
+        String filePath = uploadService.upload(img);
         return Result.okResult(filePath);
     }
 }

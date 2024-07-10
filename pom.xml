@@ -21,17 +21,11 @@
 
     <dependencies>
         <!--SpringSecurity启动器-->
-        <!--<dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>-->
+        </dependency>
 
-        <!--jwt依赖-->
-        <!--<dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt</artifactId>
-            <version>0.9.1</version>
-        </dependency>-->
 
         <dependency>
             <groupId>com.aliyun</groupId>
@@ -73,11 +67,6 @@
             <version>1.18.20</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.76</version>
-        </dependency>
 
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
@@ -115,12 +104,12 @@
             <version>1.3.3</version>
             &lt;!&ndash; 将Swagger文档转换为其他格式的工具 &ndash;&gt;
         </dependency>-->
-        <dependency>
+        <!--<dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
-            <!-- Swagger UI API 文档展示界面 -->
-        </dependency>
+            &lt;!&ndash; Swagger UI API 文档展示界面 &ndash;&gt;
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -138,10 +127,6 @@
             <version>3.10.2</version>
         </dependency>
         <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
@@ -153,6 +138,29 @@
             <version>4.5.13</version> <!-- 使用最新版本 -->
         </dependency>
 
+        <!-- Redis的starter包，用于集成Redis作为缓存或持久化方案 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <!-- FastJSON，一个Java语言编写的高性能功能完备的JSON库 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.33</version>
+        </dependency>
+        <!-- JWT（JSON Web Token）的库，用于生成和解析JWT -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+        <!-- JAXB API，用于XML和Java对象之间的绑定 -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
     </dependencies>
     <build>
 <!--        <plugins>-->

@@ -5,6 +5,7 @@ import com.kkk.common.utils.AppHttpCodeEnum;
 import com.kkk.common.utils.Result;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
+import com.kkk.domain.vo.BlogUserLoginVo;
 import com.kkk.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -29,11 +30,7 @@ public class UserController {
     @ApiOperation("用户登录")
     @PostMapping("/login")
     public Result login(@RequestBody User user) {
-        if (!StringUtils.hasText(user.getUsername())) {
-            //提示必须要输入用户名
-            throw new SystemException(AppHttpCodeEnum.REQUIRE_USERNAME);
-        }
-        User login = userService.login(user);
+        BlogUserLoginVo login = userService.login(user);
         return Result.okResult(login);
     }
 

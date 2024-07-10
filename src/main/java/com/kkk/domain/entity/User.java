@@ -18,6 +18,8 @@ import java.util.Date;
  * @Version V1.0
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User implements Serializable {
     private static final long serialVersionUID = 1L;
 
