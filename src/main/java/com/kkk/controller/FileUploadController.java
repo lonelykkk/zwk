@@ -8,6 +8,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -22,7 +23,8 @@ import java.util.UUID;
  * @Version V1.0
  */
 @Api(tags = "文件上传接口")
-@RestController("/user")
+@RestController
+@RequestMapping("/user")
 @Log4j2
 public class FileUploadController {
 

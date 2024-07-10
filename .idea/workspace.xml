@@ -130,6 +130,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="fa62f74e-309e-44b9-bb05-6bbc54e48414" name="更改" comment="" />
@@ -151,7 +154,7 @@
       <workItem from="1720423269595" duration="2560000" />
       <workItem from="1720447093821" duration="1542000" />
       <workItem from="1720489764237" duration="13298000" />
-      <workItem from="1720575378103" duration="15485000" />
+      <workItem from="1720575378103" duration="18078000" />
     </task>
     <task id="LOCAL-00001" summary="更改1次">
       <created>1720195845015</created>
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720580219006</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新登录拦截校验">
+      <created>1720597775345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720597775345</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +241,8 @@
     <MESSAGE value="更改5次" />
     <MESSAGE value="更新文件上传接口" />
     <MESSAGE value="史山代码先保存一波" />
-    <option name="LAST_COMMIT_MESSAGE" value="史山代码先保存一波" />
+    <MESSAGE value="更新登录拦截校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新登录拦截校验" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
