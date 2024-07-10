@@ -22,7 +22,7 @@ import java.util.UUID;
  * @Version V1.0
  */
 @Api(tags = "文件上传接口")
-@RestController
+@RestController("/user")
 @Log4j2
 public class FileUploadController {
 

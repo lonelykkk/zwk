@@ -45,3 +45,13 @@ alioss:
   access-key-id: LTAI5tQf2Zwk976EbuR15Mnq
   access-key-secret: 6BtBhcnGxDv364zPQ3EOgpppzBvYK7
   bucket-name: lonelykky
+
+zwk:
+  jwt:
+    # 设置jwt签名加密时使用的秘钥
+    user-secret-key: zwkzwk
+    # 设置jwt过期时间
+    user-ttl: 7200000
+    # 设置前端传递过来的令牌名称
+    user-token-name: token
+

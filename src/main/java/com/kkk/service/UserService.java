@@ -2,7 +2,6 @@ package com.kkk.service;
 
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
-import com.kkk.domain.vo.BlogUserLoginVo;
 
 /**
  * @author lonelykkk
@@ -13,7 +12,7 @@ import com.kkk.domain.vo.BlogUserLoginVo;
 public interface UserService {
     void addUser(UserDto userDto);
 
-    BlogUserLoginVo login(User user);
+    User login(User user);
 
     void uploadAvatar(User user);
 }

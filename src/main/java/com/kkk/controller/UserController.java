@@ -1,17 +1,19 @@
 package com.kkk.controller;
 
-import com.kkk.common.exception.SystemException;
-import com.kkk.common.utils.AppHttpCodeEnum;
+import com.kkk.common.prooerties.JwtProperties;
+import com.kkk.common.utils.JwtUtil;
 import com.kkk.common.utils.Result;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
-import com.kkk.domain.vo.BlogUserLoginVo;
+import com.kkk.domain.vo.UserLoginVo;
 import com.kkk.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author lonelykkk
@@ -27,11 +29,26 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private JwtProperties jwtProperties;
+
     @ApiOperation("用户登录")
     @PostMapping("/login")
     public Result login(@RequestBody User user) {
-        BlogUserLoginVo login = userService.login(user);
-        return Result.okResult(login);
+        user = userService.login(user);
+        //登录成功后，生成jwt令牌
+        Map<String, Object> claims = new HashMap<>();
+        claims.put("userId", user.getId());
+        String token = JwtUtil.createJWT(
+                jwtProperties.getUserSecretKey(),
+                jwtProperties.getUserTtl(),
+                claims);
+
+        UserLoginVo userLoginVo = UserLoginVo.builder()
+                .user(user)
+                .token(token)
+                .build();
+        return Result.okResult(userLoginVo);
     }
 
     @ApiOperation("注册用户")
