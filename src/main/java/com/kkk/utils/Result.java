@@ -1,4 +1,4 @@
-package com.kkk.common.utils;
+package com.kkk.utils;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

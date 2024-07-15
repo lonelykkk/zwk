@@ -7590,3 +7590,5 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 2024-07-10 16:13:03.495  INFO 57224 --- [http-nio-8971-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-07-10 16:13:03.496  INFO 57224 --- [http-nio-8971-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2024-07-10 16:13:03.527  WARN 57224 --- [http-nio-8971-exec-1] o.s.web.servlet.PageNotFound             : No mapping for POST /upload
+2024-07-10 17:56:02.560  INFO 57224 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-07-10 17:56:02.563  INFO 57224 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

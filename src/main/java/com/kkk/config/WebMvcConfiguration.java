@@ -1,9 +1,8 @@
-package com.kkk.common.config;
+package com.kkk.config;
 
-import com.kkk.common.interceptor.JwtTokenAdminInterceptor;
+import com.kkk.interceptor.JwtTokenAdminInterceptor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

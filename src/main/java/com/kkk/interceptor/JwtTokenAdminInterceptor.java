@@ -1,7 +1,7 @@
-package com.kkk.common.interceptor;
+package com.kkk.interceptor;
 
-import com.kkk.common.prooerties.JwtProperties;
-import com.kkk.common.utils.JwtUtil;
+import com.kkk.prooerties.JwtProperties;
+import com.kkk.utils.JwtUtil;
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

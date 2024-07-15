@@ -1,8 +1,8 @@
 package com.kkk.controller;
 
-import com.kkk.common.prooerties.JwtProperties;
-import com.kkk.common.utils.JwtUtil;
-import com.kkk.common.utils.Result;
+import com.kkk.prooerties.JwtProperties;
+import com.kkk.utils.JwtUtil;
+import com.kkk.utils.Result;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
 import com.kkk.domain.vo.UserLoginVo;
@@ -69,4 +69,10 @@ public class UserController {
     public Result test() {
         return Result.okResult("test");
     }
+
+   /* @GetMapping("/page")
+    public Result pageUser(){
+        userService.page();
+        return null;
+    }*/
 }

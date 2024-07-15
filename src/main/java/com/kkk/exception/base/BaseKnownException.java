@@ -2,7 +2,7 @@
  * 慧程框架
  */
 
-package com.kkk.common.exception.base;
+package com.kkk.exception.base;
 
 public class BaseKnownException extends RuntimeException implements BaseErrorCode {
     private Integer code;

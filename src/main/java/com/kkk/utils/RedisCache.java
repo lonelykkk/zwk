@@ -1,4 +1,4 @@
-package com.kkk.common.utils;
+package com.kkk.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.BoundSetOperations;

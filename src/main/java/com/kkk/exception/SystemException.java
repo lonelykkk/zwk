@@ -1,6 +1,6 @@
-package com.kkk.common.exception;
+package com.kkk.exception;
 
-import com.kkk.common.utils.AppHttpCodeEnum;
+import com.kkk.utils.AppHttpCodeEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

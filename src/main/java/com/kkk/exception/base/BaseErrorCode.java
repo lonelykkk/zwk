@@ -3,7 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
-package com.kkk.common.exception.base;
+package com.kkk.exception.base;
 
 public interface BaseErrorCode {
     String getMessage();

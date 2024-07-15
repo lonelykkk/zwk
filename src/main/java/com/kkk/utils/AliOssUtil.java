@@ -1,4 +1,4 @@
-package com.kkk.common.utils;
+package com.kkk.utils;
 
 import com.aliyun.oss.ClientException;
 import com.aliyun.oss.OSS;

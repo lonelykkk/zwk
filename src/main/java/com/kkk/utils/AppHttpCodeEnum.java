@@ -1,4 +1,4 @@
-package com.kkk.common.utils;
+package com.kkk.utils;
 
 public enum AppHttpCodeEnum {
     // 成功

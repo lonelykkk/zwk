@@ -1,4 +1,4 @@
-package com.kkk.common.utils;
+package com.kkk.utils;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

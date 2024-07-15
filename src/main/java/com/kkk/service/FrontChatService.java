@@ -1,6 +1,6 @@
 package com.kkk.service;
 
-import com.kkk.common.utils.Result;
+import com.kkk.utils.Result;
 import com.kkk.domain.dto.ChatAskDTO;
 import com.kkk.domain.vo.ChatInfo;
 

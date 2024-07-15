@@ -1,7 +1,6 @@
 package com.kkk.controller;
 
-import com.kkk.common.utils.Result;
-import com.kkk.common.utils.AliOssUtil;
+import com.kkk.utils.Result;
 import com.kkk.service.FileUploadService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -11,9 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.io.IOException;
-import java.util.UUID;
 
 /**
  * 文件上传相关接口

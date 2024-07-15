@@ -1,6 +1,6 @@
 package com.kkk.service.impl;
 
-import com.kkk.common.utils.AliOssUtil;
+import com.kkk.utils.AliOssUtil;
 import com.kkk.service.FileUploadService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

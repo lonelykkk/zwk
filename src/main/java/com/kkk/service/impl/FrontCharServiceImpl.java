@@ -2,7 +2,7 @@ package com.kkk.service.impl;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kkk.common.utils.Result;
+import com.kkk.utils.Result;
 import com.kkk.domain.dto.ChatAskDTO;
 import com.kkk.domain.vo.ChatInfo;
 import com.kkk.service.FrontChatService;
@@ -12,7 +12,6 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okio.BufferedSink;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.io.IOException;
 

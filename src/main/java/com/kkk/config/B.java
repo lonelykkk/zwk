@@ -1,4 +1,4 @@
-package com.kkk.common.config;
+package com.kkk.config;
 
 public class B {
     //6666

@@ -1,4 +1,4 @@
-package com.kkk.common.prooerties;
+package com.kkk.prooerties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

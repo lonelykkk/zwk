@@ -1,6 +1,6 @@
 package com.kkk.service.impl;
 
-import com.kkk.common.exception.base.BaseKnownException;
+import com.kkk.exception.base.BaseKnownException;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
 import com.kkk.mapper.UserMapper;
@@ -8,7 +8,6 @@ import com.kkk.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.DigestUtils;
 
 import java.util.Date;
 

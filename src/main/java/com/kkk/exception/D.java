@@ -1,4 +1,4 @@
-package com.kkk.common.exception;
+package com.kkk.exception;
 
 
 public class D {
