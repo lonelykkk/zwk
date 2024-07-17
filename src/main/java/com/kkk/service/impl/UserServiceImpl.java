@@ -1,15 +1,20 @@
 package com.kkk.service.impl;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
+import com.kkk.domain.dto.PageUserDto;
 import com.kkk.exception.base.BaseKnownException;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
 import com.kkk.mapper.UserMapper;
 import com.kkk.service.UserService;
+import com.kkk.utils.PageResult;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author lonelykkk
@@ -59,5 +64,14 @@ public class UserServiceImpl implements UserService {
     @Override
     public void uploadAvatar(User user) {
         userMapper.updateById(user);
+    }
+
+    @Override
+    public PageResult page(PageUserDto pageUserDto) {
+        PageHelper.startPage(pageUserDto.getPage(), pageUserDto.getPageSize());
+        Page<User> page = userMapper.getPage(pageUserDto);
+        final long total = page.getTotal();
+        final List<User> result = page.getResult();
+        return new PageResult(total, result);
     }
 }

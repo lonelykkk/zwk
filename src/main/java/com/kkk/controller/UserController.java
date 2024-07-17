@@ -1,7 +1,9 @@
 package com.kkk.controller;
 
+import com.kkk.domain.dto.PageUserDto;
 import com.kkk.prooerties.JwtProperties;
 import com.kkk.utils.JwtUtil;
+import com.kkk.utils.PageResult;
 import com.kkk.utils.Result;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
@@ -24,6 +26,7 @@ import java.util.Map;
 @Api(tags = "用户相关接口")
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class UserController {
 
     @Autowired
@@ -33,6 +36,7 @@ public class UserController {
     private JwtProperties jwtProperties;
 
     @ApiOperation("用户登录")
+    //@SystemLog(BusinessName = "用户登录")
     @PostMapping("/login")
     public Result login(@RequestBody User user) {
         user = userService.login(user);
@@ -60,7 +64,7 @@ public class UserController {
 
     @ApiOperation("更新用户信息")
     @PostMapping("/update")
-    public Result uploadAvatar(User user) {
+    public Result uploadAvatar(@RequestBody User user) {
         userService.uploadAvatar(user);
         return Result.okResult();
     }
@@ -70,9 +74,11 @@ public class UserController {
         return Result.okResult("test");
     }
 
-   /* @GetMapping("/page")
-    public Result pageUser(){
-        userService.page();
-        return null;
-    }*/
+    @ApiOperation("分页查询用户信息")
+    @GetMapping("/page")
+    public Result pageUser(PageUserDto pageUserDto){
+        PageResult pageResult = userService.page(pageUserDto);
+        return Result.okResult(pageResult);
+    }
+
 }

@@ -1,7 +1,9 @@
 package com.kkk.service;
 
+import com.kkk.domain.dto.PageUserDto;
 import com.kkk.domain.dto.UserDto;
 import com.kkk.domain.entity.User;
+import com.kkk.utils.PageResult;
 
 /**
  * @author lonelykkk
@@ -15,4 +17,6 @@ public interface UserService {
     User login(User user);
 
     void uploadAvatar(User user);
+
+    PageResult page(PageUserDto pageUserDto);
 }

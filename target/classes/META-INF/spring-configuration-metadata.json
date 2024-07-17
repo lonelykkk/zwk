@@ -7,8 +7,8 @@
     },
     {
       "name": "zwk.jwt",
-      "type": "com.kkk.common.prooerties.JwtProperties",
-      "sourceType": "com.kkk.common.prooerties.JwtProperties"
+      "type": "com.kkk.prooerties.JwtProperties",
+      "sourceType": "com.kkk.prooerties.JwtProperties"
     }
   ],
   "properties": [
@@ -36,17 +36,17 @@
       "name": "zwk.jwt.user-secret-key",
       "type": "java.lang.String",
       "description": "用户生成jwt令牌相关配置",
-      "sourceType": "com.kkk.common.prooerties.JwtProperties"
+      "sourceType": "com.kkk.prooerties.JwtProperties"
     },
     {
       "name": "zwk.jwt.user-token-name",
       "type": "java.lang.String",
-      "sourceType": "com.kkk.common.prooerties.JwtProperties"
+      "sourceType": "com.kkk.prooerties.JwtProperties"
     },
     {
       "name": "zwk.jwt.user-ttl",
       "type": "java.lang.Long",
-      "sourceType": "com.kkk.common.prooerties.JwtProperties"
+      "sourceType": "com.kkk.prooerties.JwtProperties"
     }
   ],
   "hints": []
