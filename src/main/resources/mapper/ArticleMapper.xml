@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.kkk.mapper.ArticleMapper">
+
+    <resultMap id="ArticleVoResultMap" type="com.kkk.domain.vo.ArticleVo">
+        <!-- 映射分类名称 -->
+        <result property="categoryName" column="name" />
+    </resultMap>
+
+    <select id="queryList" resultMap="ArticleVoResultMap">
+        select
+            a.title,
+            a.content,
+            a.summary,
+            a.thumbnail,
+            a.view_count,
+            a.create_by,
+            a.create_time,
+            a.update_by,
+            c.name
+        from article a
+        left join category c on a.category_id = c.id
+        <where>
+            <if test="title != null and title != ''">
+                and article.title like concat('%',#{title},'%')
+            </if>
+            <if test="categoryId !=null">
+                and article.category_id = #{categoryId}
+            </if>
+        </where>
+    </select>
+</mapper>
