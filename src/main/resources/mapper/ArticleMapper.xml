@@ -10,6 +10,7 @@
 
     <select id="queryList" resultMap="ArticleVoResultMap">
         select
+            a.id,
             a.title,
             a.content,
             a.summary,
@@ -28,6 +29,32 @@
             <if test="categoryId !=null">
                 and article.category_id = #{categoryId}
             </if>
+        </where>
+        order by
+            a.is_top DESC,
+            a.view_count DESC
+    </select>
+    <select id="getTagIds" resultType="java.lang.Long">
+        select t.tag_id
+        from article_tag t
+        <where>
+            t.article_id = #{id}
+        </where>
+    </select>
+
+    <select id="getArticleById" resultType="com.kkk.domain.vo.ArticleVo">
+        select
+            a.title,
+            a.content,
+            a.summary,
+            a.thumbnail,
+            a.view_count,
+            a.create_by,
+            a.create_time,
+            a.update_by
+        from article a
+        <where>
+            id = #{id}
         </where>
     </select>
 </mapper>

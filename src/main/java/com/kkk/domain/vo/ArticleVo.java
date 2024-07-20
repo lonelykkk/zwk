@@ -19,6 +19,11 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ArticleVo {
+
+    /**
+     * 文章id
+     */
+    private Integer id;
     /**
      * 标题
      */

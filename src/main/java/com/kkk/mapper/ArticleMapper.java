@@ -17,4 +17,8 @@ import java.util.List;
 @Mapper
 public interface ArticleMapper extends BaseMapper<Article> {
     List<ArticleVo> queryList(PageArticleDto pageArticleDto);
+
+    List<Long> getTagIds(Long id);
+
+    ArticleVo getArticleById(Long id);
 }

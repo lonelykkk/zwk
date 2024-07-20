@@ -13,4 +13,6 @@ import java.util.List;
  */
 public interface ArticleService {
     List<ArticleVo> page(PageArticleDto pageArticleDto);
+
+    ArticleVo getById(Long id);
 }

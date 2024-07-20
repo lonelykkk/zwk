@@ -12,4 +12,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface TagMapper extends BaseMapper<Tag> {
+    String getNameById(Long id);
 }
