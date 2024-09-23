@@ -1,7 +1,9 @@
 package com.kkk;
 
+import cn.yam.sychatsdk.config.SyChatProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 /**
  * @author lonelykkk
@@ -11,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
+@EnableConfigurationProperties(SyChatProperties.class)// 扫描读取yaml配置
 public class Main {
     // hello world
     public static void main(String[] args) {

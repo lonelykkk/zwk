@@ -35,7 +35,6 @@ public class HandlerWebSocket extends SimpleChannelInboundHandler<TextWebSocketF
         Attribute<String> attribute = channel.attr(AttributeKey.valueOf(channel.id().toString()));
         String userId = attribute.get();
         log.info("收到消息的消息:{}", textWebSocketFrame.text());
-        //redisComponent.saveHeartBeat(userId);
     }
 
     /**
@@ -58,19 +57,11 @@ public class HandlerWebSocket extends SimpleChannelInboundHandler<TextWebSocketF
         if (evt instanceof WebSocketServerProtocolHandler.HandshakeComplete) {
             WebSocketServerProtocolHandler.HandshakeComplete complete = (WebSocketServerProtocolHandler.HandshakeComplete) evt;
             String url = complete.requestUri();
-
             log.info("url:{}",url);
             String token = getToken(url);
             if (token == null) {
-                //ctx.channel().close();
-                return;
+
             }
-           /* TokenUserInfoDto tokenUserInfoDto = redisComponent.getTokenUserInfoDto(token);
-            if (tokenUserInfoDto == null) {
-                ctx.channel().close();
-                return;
-            }
-            channelContextUtils.addContext(tokenUserInfoDto.getUserId(), ctx.channel());*/
         }
     }
 
