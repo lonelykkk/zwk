@@ -1,7 +1,7 @@
 package com.kkk.controller;
 
 import com.kkk.domain.dto.PageUserDto;
-import com.kkk.prooerties.JwtProperties;
+import com.kkk.properties.JwtProperties;
 import com.kkk.utils.JwtUtil;
 import com.kkk.utils.PageResult;
 import com.kkk.utils.Result;

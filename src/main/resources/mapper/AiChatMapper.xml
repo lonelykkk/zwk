@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.kkk.mapper.AiChatMapper">
+
+    <select id="getChatList" resultType="com.kkk.domain.vo.AiChatVo">
+        select
+        ai.question,
+        ai.answer,
+        ai.create_time
+        from ai_chat ai
+        <where>
+            ai.user_id = #{userId}
+        </where>
+    </select>
+
+    <select id="getByChatList" resultType="com.kkk.domain.vo.AiChatVo">
+        select
+        ai.question,
+        ai.answer,
+        ai.create_time
+        from ai_chat ai
+        <where>
+            ai.list_id = #{listId}
+        </where>
+    </select>
+</mapper>

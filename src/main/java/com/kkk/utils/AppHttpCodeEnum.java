@@ -18,7 +18,8 @@ public enum AppHttpCodeEnum {
     EMAIL_NOT_NULL(511, "邮箱不能为空"),
     NICKNAME_EXIST(512, "昵称已存在"),
     MENU_PARENT(513, "存在子菜单不允许删除"),
-    LOGIN_ERROR(505,"用户名或密码错误");
+    LOGIN_ERROR(505,"用户名或密码错误"),
+    GET_AI_CHAT(514,"ai对话为空");
     int code;
     String msg;
 

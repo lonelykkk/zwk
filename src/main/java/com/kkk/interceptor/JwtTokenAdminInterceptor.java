@@ -1,6 +1,7 @@
 package com.kkk.interceptor;
 
-import com.kkk.prooerties.JwtProperties;
+import com.kkk.context.BaseContext;
+import com.kkk.properties.JwtProperties;
 import com.kkk.utils.JwtUtil;
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
@@ -46,6 +47,7 @@ public class JwtTokenAdminInterceptor implements HandlerInterceptor {
             Claims claims = JwtUtil.parseJWT(jwtProperties.getUserSecretKey(), token);
             Long userId = Long.valueOf(claims.get("userId").toString());
             log.info("当前用户id：{}", userId);
+            BaseContext.setUserId(userId);
             //3、通过，放行
             return true;
         } catch (Exception ex) {
