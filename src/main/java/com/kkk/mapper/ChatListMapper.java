@@ -2,6 +2,7 @@ package com.kkk.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.kkk.domain.entity.ChatList;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
 * @author 喻凯
@@ -9,6 +10,7 @@ import com.kkk.domain.entity.ChatList;
 * @createDate 2024-10-22 10:50:11
 * @Entity generator.domain.ChatList
 */
+@Mapper
 public interface ChatListMapper extends BaseMapper<ChatList> {
 
 }

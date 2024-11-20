@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
- * @author: wsy
+ * @author: kkk
  */
 @Api(tags = "gpt相关接口")
 @RestController

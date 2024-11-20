@@ -18,17 +18,18 @@ import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
 
-/**
- ClassName: HandlerWebSocket
- Description:
- @Author Keanu
- @Create 2024/5/26 22:45
- */
 @Slf4j
 @Component
 @ChannelHandler.Sharable
 public class HandlerWebSocket extends SimpleChannelInboundHandler<TextWebSocketFrame> {
 
+    /**
+     * 用于处理每个传入的消息。传入的消息是 TextWebSocketFrame 类型的对象，它代表一个 WebSocket文本帧。
+     *
+     * @param channelHandlerContext
+     * @param textWebSocketFrame
+     * @throws Exception
+     */
     @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, TextWebSocketFrame textWebSocketFrame) throws Exception {
         Channel channel = channelHandlerContext.channel();
@@ -39,6 +40,7 @@ public class HandlerWebSocket extends SimpleChannelInboundHandler<TextWebSocketF
 
     /**
      * 通道就绪后 调用，一般用来做初始化
+     *
      * @param ctx
      * @throws Exception
      */
@@ -57,26 +59,8 @@ public class HandlerWebSocket extends SimpleChannelInboundHandler<TextWebSocketF
         if (evt instanceof WebSocketServerProtocolHandler.HandshakeComplete) {
             WebSocketServerProtocolHandler.HandshakeComplete complete = (WebSocketServerProtocolHandler.HandshakeComplete) evt;
             String url = complete.requestUri();
-            log.info("url:{}",url);
-            String token = getToken(url);
-            if (token == null) {
-
-            }
+            log.info("url:{}", url);
         }
     }
 
-    private String getToken(String url) {
-        if (!StringUtils.hasLength(url) || !url.contains("?")) {
-            return null;
-        }
-        String[] queryParams = url.split("\\?");
-        if (queryParams.length != 2) {
-            return null;
-        }
-        String[] params = queryParams[1].split("=");
-        if (params.length != 2) {
-            return null;
-        }
-        return params[1];
-    }
 }

@@ -17,6 +17,11 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class HandleHeartBeat extends ChannelDuplexHandler {
+
+    /**
+     * 如果客户端处于 读取空闲 状态（即未接收到数据），则记录日志并关闭连接。
+     * 如果客户端处于 写空闲 状态（即未发送数据），则向客户端发送心跳消息保持连接。
+     */
     @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
         if (evt instanceof IdleStateEvent) {

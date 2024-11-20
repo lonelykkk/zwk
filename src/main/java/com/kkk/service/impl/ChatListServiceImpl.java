@@ -3,7 +3,6 @@ package com.kkk.service.impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.kkk.context.BaseContext;
 import com.kkk.domain.entity.ChatList;
-import com.kkk.exception.D;
 import com.kkk.service.ChatListService;
 import com.kkk.mapper.ChatListMapper;
 import org.springframework.stereotype.Service;

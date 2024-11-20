@@ -40,7 +40,7 @@ logging:
     path: D:\ZWK\ZWK
     name: ZWK.log
   level:
-    root: debug
+    root: info
 
 
 alioss:
@@ -66,3 +66,8 @@ sy:
     model: 'llama3-8b-8192'
     max-tokens: 4096
     stream: false
+kkk:
+  client:
+    api-code: a8041b5ea4ksad5d6f9f7cf54d3 # 对应部分阿里云的接口调用api秘钥，如天气查询，身份证验证，短信验证码，敏感词过滤等api
+    qq: test@qq.com # 对应发送qq邮箱stmp服务的账号
+    qq-mail-code: jhdogitzipnsadichhf #对应发送qq邮箱stmp服务的秘钥
